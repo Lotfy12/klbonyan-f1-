@@ -1,0 +1,114 @@
+.responsive-section {
+  /* background-color: burlywood; */
+}
+.new-version-head {
+  color: #070724;
+}
+.new-version-para {
+  color: #6f6f6f;
+}
+.responsive-logo {
+  /* width: 50%;
+  height: 90%; */
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+  padding: 3.2rem;
+  transition: all 0.5s;
+  border-radius: 1rem;
+}
+
+.responsive-logo:hover {
+  transform: translatey(3rem);
+  border-bottom: 3px solid transparent;
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem rgba(50, 180, 212, 0.403);
+}
+.respinsive-logos-1 {
+  grid-template-columns: repeat(6, 1fr);
+
+  gap: 3.2rem;
+  padding: 6.4rem;
+  justify-content: center;
+}
+.respinsive-logos-2 {
+  gap: 3.2rem !important;
+  padding: 6.4rem;
+}
+
+.btn-time {
+  border-radius: 2rem;
+}
+.para-column {
+  font-size: 2rem;
+  color: #6f6f6f;
+  padding: 3.2rem;
+}
+.link-column {
+  color: #070724;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1.2rem 2.4rem;
+  margin: 1.6rem 0 4.8rem 0;
+  background-color: #f7f7f7;
+  border-radius: 20rem;
+  transition: all 0.35s;
+  display: inline-block;
+}
+.link-column:hover {
+  background-color: #070724;
+  color: #f7f7f7;
+}
+.logos-icon {
+  display: flex;
+  gap: 1.6rem;
+}
+.logo-icon {
+  font-size: 2.4rem;
+  padding: 2.4rem;
+  margin-top: 2.4rem;
+  background-color: #f7f7f7;
+  border-radius: 20rem;
+  cursor: pointer;
+  border: 3px solid #f7f7f7;
+  transition: all 0.3s;
+}
+
+.logo-icon:hover {
+  border: 3px solid #333;
+}
+.company {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #070724;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.about {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+.android-footer,
+.iphone-footer {
+  font-size: 2rem;
+}
+.footer-download span {
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #6f6f6f;
+}
+.footer-section {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+/*fixed */
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      
+      
+      */

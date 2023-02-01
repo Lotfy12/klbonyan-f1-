@@ -1,0 +1,112 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  /* background-color: burlywood; */
+}
+
+.feature-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #f2f7f9;
+  background-color: #2facfc;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+.feature-icon-2 {
+  background-color: #ff4268;
+}
+.feature-icon-3 {
+  background-color: #3679ff;
+}
+.feature-icon-4 {
+  background-color: #f67842;
+}
+.feature-icon-5 {
+  background-color: #6b88f7;
+}
+.feature-icon-6 {
+  background-color: #3bb094;
+}
+.third-heading {
+  color: #070724;
+  font-size: 2.4rem;
+  /* font-weight: 600; */
+  padding: 2.4rem 0 2.4rem 0;
+  /* background: yellow; */
+}
+.para-featire {
+  /* background-color: #2ffc4a; */
+  font-size: 1.6rem;
+  color: #6f6f6f;
+  padding-bottom: 2.4rem;
+}
+.btn-feature {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #6f6f6f;
+}
+.feature-element {
+  padding: 4.8rem;
+  border: 1px solid #d6d9dd;
+  transition: all 0.5s;
+}
+.feature-element:hover {
+  border-radius: 20%;
+}
+
+.feature-element-1:hover {
+  border: 1px solid#2facfc;
+}
+.feature-element-2:hover {
+  border: 1px solid #ff4268;
+}
+.feature-element-3:hover {
+  border: 1px solid #3679ff;
+}
+.feature-element-4:hover {
+  border: 1px solid #f67842;
+}
+.feature-element-5:hover {
+  border: 1px solid #6b88f7;
+}
+.feature-element-6:hover {
+  border: 1px solid #3bb094;
+}
+.grid {
+  display: grid;
+}
+.grid-column-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+}
+.grid-column-2 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.8rem;
+  justify-content: center;
+  align-content: center;
+}
+.delivered-img {
+  background-image: url(/about-thumb.png);
+  background-size: cover;
+
+  height: 100%;
+  width: 96%;
+}
+.container {
+  padding: 4.8rem;
+}
+.container-back {
+  background-color: #f2f7f9;
+}
+
+.delivered-info span {
+  color: #ff4268;
+}
+.check-market {
+  height: 1.8rem;
+  width: 1.8rem;
+  color: #f2f7f9;
+  padding: 0.8rem;
+  border-radius: 50%;
+  background-color: #249d53;
+}

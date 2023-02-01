@@ -1,0 +1,85 @@
+.feature-body {
+  margin: 3.2rem 0;
+}
+.feature {
+  background-color: #0e1133;
+}
+.ele {
+  border: 1px solid #262947;
+  padding: 3.2rem;
+  border-radius: 1rem;
+  margin: 3.2rem;
+
+  transition: all 0.5s;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+.ele:hover {
+  transform: translate(-5rem);
+  box-shadow: 2rem 1.4rem 2rem rgba(0, 0, 0, 0.3);
+}
+.feature .ele h3 {
+  color: #f7f7f7;
+}
+.features-header {
+  text-align: center;
+  padding: 4.8rem 0 3.2rem 0;
+}
+.feature-title {
+  color: #f7f7f7;
+  padding-bottom: 3rem;
+  font-size: 4.4rem;
+}
+.feature-paragraphe {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.box-option {
+  padding-top: 4.8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+.new-box-one {
+  display: flex;
+  justify-content: center;
+
+  gap: 1.6rem;
+}
+.new-box-one h3 {
+  padding: 0 0 2.4rem 0;
+}
+.delivered-info span {
+  color: #ff4268;
+  font-size: 1.8rem;
+}
+.ele-para {
+  margin-left: 3rem;
+  color: #88899a;
+  font-size: 1.6rem;
+  padding-left: 1.6rem;
+}
+.light {
+  margin: 0 2.4rem;
+  padding: 1.6rem 1.6rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.light-1 {
+  background-color: #ff3e66;
+  box-shadow: 0 0 0 5px rgb(255 62 102 / 40%);
+}
+
+.light-2 {
+  background-color: #2eacfc;
+  box-shadow: 0 0 0 5px rgb(46 172 252 / 40%);
+}
+.light-3 {
+  background-color: #33c956;
+  box-shadow: 0 0 0 5px rgb(51 201 86 / 40%);
+}
+.second-ele {
+  background-image: url(/features-thumb-2.png);
+  background-size: cover;
+  height: 90vh;
+}

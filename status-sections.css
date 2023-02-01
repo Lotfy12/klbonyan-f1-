@@ -1,0 +1,102 @@
+.statues-boxs {
+  padding: 6.4rem 0;
+}
+.statue-box:hover {
+  /* border: 1px solid #4949ff; */
+  border-radius: 20%;
+}
+.statue-back-1:hover {
+  background-image: linear-gradient(#7f7ff1, #f7f7f7), url(/logo.png);
+}
+.statue-back-2:hover {
+  background-image: linear-gradient(#423fa5, #f7f7f7), url(/logo.png);
+}
+.statue-back-3:hover {
+  background-image: linear-gradient(#65a585, #f7f7f7), url(/logo.png);
+}
+.statue-back-4:hover {
+  background-image: linear-gradient(#b6c76d, #f7f7f7), url(/logo.png);
+}
+.statue-box {
+  transition: all 0.35s;
+  padding: 4.4rem;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 2rem rgb(0 0 0 / 30%);
+  display: inline-block;
+}
+.grid-column-4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.2rem;
+}
+
+.status-k {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.display {
+  padding: 6.4rem 0;
+}
+.video {
+  position: relative;
+}
+
+.icon-video {
+  color: #ff3e66;
+  background-color: #f7f7f7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.head {
+  padding: 3.2rem;
+}
+.des {
+  padding: 3.2rem;
+}
+.status-section {
+  position: relative;
+}
+.btn-info {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+}
+.bb {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 2.4rem;
+  border-radius: 50%;
+  transition: all 0.3s;
+  border: 1px solid #6f6f6f;
+}
+.bb:hover,
+.bb:active {
+  border: 1px solid #333;
+}
+.bb1 {
+  margin: 0 1.2rem;
+}
+.bbm1:link,
+.bbm1:visited {
+  color: #6f6f6f;
+}
+.bbm1:hover,
+.bbm1:active {
+  color: #ff4268;
+
+  border: 1px solid #f7f7f7;
+}
+
+/* .hidee {
+  display: none;*/
+.hidek {
+  display: none;
+}
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      
+      */

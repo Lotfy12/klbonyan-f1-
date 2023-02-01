@@ -1,0 +1,96 @@
+.app-store-section {
+  background-color: #eef1f6;
+}
+.left-app span {
+  font-size: 1.8rem;
+  color: #ff3e66;
+}
+.download-icon {
+  font-size: 3rem;
+}
+.android,
+.iphone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 2.4rem;
+  border-radius: 4rem;
+  gap: 3.2rem;
+  border: 3px solid #070724;
+  margin: 4.2rem 0 0 0;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+.fresh-par2 {
+  overflow: hidden;
+}
+.second-ele {
+  background-image: url(/features-thumb-2.png);
+  /* background-size: cover; */
+  height: 85vh;
+  width: 59vh;
+  background-repeat: no-repeat;
+}
+.video-after {
+  background-image: url(/video-thumb-1.jpg);
+  width: 90vh;
+  height: 43vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.video-after img {
+  display: none;
+}
+
+.android:hover,
+.iphone:hover {
+  border: 3px solid #fcfcfc;
+}
+.android {
+  background-color: #f7f7f7;
+}
+.android p,
+.android p span {
+  color: #070724;
+}
+
+.iphone {
+  background-color: #070724;
+}
+.iphone p,
+.iphone p span {
+  color: #f7f7f7;
+}
+
+.para-app span {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.para-app {
+  font-size: 2.4rem;
+  color: #070724;
+}
+.app-space {
+  padding: 9.6rem;
+}
+.google-logo {
+  color: #f7f7f7;
+  font-size: 10rem;
+}
+.apple-logo {
+  color: #070724;
+  font-size: 10rem;
+}
+.footer-download {
+  display: flex;
+  gap: 2.4rem;
+}
+
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      
+      
+      */

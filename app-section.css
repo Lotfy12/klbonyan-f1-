@@ -1,0 +1,54 @@
+.section-app {
+  background-image: url(/photo.jpg);
+  background-size: cover;
+  position: relative;
+  margin-top: 9.6rem;
+  border-radius: 1rem;
+}
+.pe {
+  width: 30%;
+  height: 80%;
+  border-radius: 6rem;
+}
+
+.rates {
+  display: flex;
+  gap: 2.4rem;
+  color: yellow;
+  font-size: 2.4rem;
+}
+.review {
+  font-size: 1.8rem;
+  color: aquamarine;
+  font-weight: 500;
+}
+.app-maker-img,
+.app-maker-info {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.app-maker-img {
+  width: 100%;
+  height: 90%;
+}
+.app-maker-paragraphe {
+  font-size: 2.4rem;
+  color: #f7f7f7;
+}
+.manager-name {
+  font-size: 3rem;
+  color: #f7f7f7;
+  font-weight: 700;
+}
+
+.bbmb {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  gap: 1.6rem;
+}

@@ -1,0 +1,246 @@
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      
+      
+      */
+/*
+-font-weights 
+Default 400 
+Medium:500
+Semi-bold:600
+Bold:700 
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  background-color: #f2f7f9;
+}
+.section-hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  padding-top: 8rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.image-hero {
+  background-image: url(/hero.png);
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  margin-left: 20rem;
+}
+.primary-heading {
+  line-height: 1.05;
+  font-size: 7.4rem;
+  font-weight: 400;
+  color: #070724;
+  margin-bottom: 3.2rem;
+}
+.primary-heading strong {
+  display: block;
+}
+.paragraphe-primary-heading {
+  font-size: 1.6rem;
+  color: #393950;
+  margin-bottom: 4.8rem;
+}
+.delivered-phone {
+  display: flex;
+  /* justify-content: center;*/
+  align-items: center;
+  column-gap: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+.delivered-image img {
+  display: inline-block;
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-right: -1.6rem;
+}
+
+/* ***************** */
+
+/* ***************** */
+.hero-form {
+  margin: 3.2rem 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 2.4rem;
+  border-radius: 100px;
+  border-left: 3px solid #ff4268;
+  max-width: 75%;
+  box-shadow: 0px 20px 35px 1px rgb(0 0 0 / 10%);
+}
+
+.form-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 1.6rem;
+}
+
+.hero-form input {
+  flex: 1;
+}
+
+.hero-form input::placeholder {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+  letter-spacing: 0.75px;
+}
+
+.hero-form input,
+.hero-form button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.hero-form button .submit {
+  color: #ff5f77;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.num-customer {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1.2rem; */
+}
+
+.num-customer span {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.feedback {
+  font-size: 1.4rem;
+  color: #393950;
+}
+
+.header {
+  display: flex;
+  gap: 9.6rem;
+  padding: 0 3.2rem;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #f2f7f9;
+}
+
+.img-logo {
+  height: 2.4rem;
+}
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  column-gap: 4.8rem;
+  align-items: center;
+  justify-content: center;
+}
+.main-nav-link {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none !important;
+
+  display: inline-block;
+  transition: all 0.3s;
+}
+.header {
+  padding: 1.8rem 3.6rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #333;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #ff4268;
+}
+.nav-cta:link,
+.nav-cta:visited {
+  background-color: #ff4268;
+  padding: 1.2rem 2.4rem;
+  border-radius: 3rem;
+  color: #fff;
+}
+.nav-cta:hover,
+.nav-cta:active {
+  color: #ff4268;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 3px rgb(90, 112, 235);
+}
+.email {
+  width: 24rem;
+  border-radius: 2.4rem;
+  border: none;
+  padding-left: 3.2rem;
+}
+.email::placeholder {
+  color: #bbb;
+}
+
+/****** section-feature-2 ******/
+.space-section-2,
+.space-section-3 {
+  padding-top: 9.6rem;
+}
+
+.feature-section {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.secondary-heading {
+  font-size: 4.4rem;
+  color: #070724;
+  line-height: 1.05;
+  font-weight: 700;
+  padding: 3.2rem 0;
+}
+.paragraphe-description {
+  color: #6f6f6f;
+  font-size: 1.8rem;
+}
+.feature-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 6.4rem;
+}
+.btn-2 {
+  font-size: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.2rem 2.4rem;
+  border-radius: 2rem;
+  transition: all 0.3s;
+}
+.btn-2:link,
+.btn-2:visited {
+  color: #393950;
+  background-color: #f2f7f9;
+}
+.btn-2:hover,
+.btn-2:active {
+  color: #f2f7f9;
+  background-color: #393950;
+}
+/* section 3 */
