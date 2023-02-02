@@ -218,7 +218,33 @@
     padding-right: 0;
     margin-right: 0;
   }
-  body {
+  .primary-heading {
+    font-size: 4.4rem;
+  }
+  .text-hero {
     text-align: center;
   }
+  .left-app .secondary-heading,
+  .hea {
+    font-size: 3.2rem;
+  }
+  .left-app .paragraphe-description {
+    padding: 0;
+  }
+  .new-feature-title {
+    text-align: center;
+  }
+  .new-version-head {
+    font-size: 3.2rem;
+  }
+  .text-hero div {
+    padding-left: 3.2rem;
+  }
+  .delivered-phone {
+    padding-left: 0 !important;
+  }
+  /* .par1 .secondary-heading,
+  .par1 .paragraphe-description {
+    text-align: center;
+  } */
 }
