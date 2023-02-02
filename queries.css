@@ -212,5 +212,10 @@
   }
   .meme img {
     border: 0px;
+    width: 100%;
+  }
+  .feature {
+    padding-right: 0;
+    margin-right: 0;
   }
 }
