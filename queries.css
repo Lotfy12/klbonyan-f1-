@@ -2,10 +2,18 @@
   html {
     font-size: 50%;
   }
-  /* 
-  * {
+
+  /* * {
     border: 1px solid red;
   } */
+  .after-all {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .respinsive-logos-2 {
+    padding-top: 0;
+    padding: 0 6.4rem 6.4rem 6.4rem;
+  }
   .del1 {
     align-items: center;
   }
@@ -21,7 +29,7 @@
     align-items: center;
   }
   .second-ele {
-    width: 55vh;
+    width: 43vh;
     height: 60vh;
     background-size: contain;
     background-repeat: no-repeat;
@@ -103,7 +111,7 @@
   }
   .video-after {
     background-image: url(/video-thumb-1.jpg);
-    width: 50vh;
+    width: 45vh;
     height: 26vh;
     background-size: contain;
     background-repeat: no-repeat;
