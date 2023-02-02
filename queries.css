@@ -123,7 +123,9 @@
       
       
       */
-
+  .hero {
+    overflow: hidden;
+  }
   .feature-space {
     display: flex;
     flex-direction: column;
@@ -140,6 +142,9 @@
   }
   .responsive-logo:hover {
     border-radius: 20rem;
+  }
+  .image-hero {
+    overflow: hidden;
   }
   /* .hero-img {
   background-size: contain;
