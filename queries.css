@@ -201,4 +201,9 @@
     align-content: center;
     grid-template-columns: 1fr;
   }
+  .video {
+    position: relative;
+    width: 96%;
+    height: 96%;
+  }
 }
