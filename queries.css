@@ -6,6 +6,9 @@
   /* * {
     border: 1px solid red;
   } */
+  .meme {
+    padding: 0;
+  }
   .after-all {
     display: flex !important;
     flex-direction: column !important;
