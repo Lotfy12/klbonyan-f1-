@@ -6,23 +6,26 @@
 }
 .fresh {
   padding: 4.4rem 2.2rem;
-  /* background-color: aqua; */
   border: 3px solid rgba(0, 0, 0, 0.1);
 
   border-radius: 1rem;
-  transform: translatey(3rem);
+  transform: translateY(3rem);
   transition: all 0.35s;
 }
 .fresh:hover {
-  transform: translatey(-3rem);
+  transform: translateY(-3rem);
 }
 .fresh-par2:hover {
-  transform: translatey(-3rem);
+  transform: translateY(-3rem);
   box-shadow: 5px 10px 25px rgba(255, 61, 100, 0.448);
 }
 .fresh-par2 {
   border-top: 3px solid #ff3e66;
   box-shadow: 5px 10px 25px rgb(119 121 123 / 25%);
+  font-size: 1.5rem;
+}
+.second-part li {
+  font-size: 1.8rem;
 }
 .second-part a {
   padding: 1.2rem 2.4rem;
@@ -40,12 +43,14 @@
   color: #393950;
 }
 .fresh-2 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #828283;
 }
-.cccc {
+
+.cards {
   padding: 4.2rem 0 2.4rem 0;
 }
+
 .fresh-3 {
   font-size: 1.6rem;
   color: #828283;
@@ -68,11 +73,9 @@ ul {
   top: 4rem;
   right: -2rem;
 }
-.ss {
+.bth-option {
   display: flex;
   justify-content: center;
-
-  /* background-color: #0e1133; */
 }
 .btn-time {
   display: flex;
@@ -82,7 +85,7 @@ ul {
   background-color: #f7f7f7;
   border: none;
 }
-.montaly {
+.monthly {
   background-color: #ff3e66;
   color: #f7f7f7;
   padding: 2.4rem 4.8rem;
@@ -95,11 +98,3 @@ ul {
   font-size: 1.8rem;
   border-radius: 2rem;
 }
-/*
-      SPACING SYSTEM (px)
-      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-      FONT SIZE SYSTEM (px)
-      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-      
-      
-      */

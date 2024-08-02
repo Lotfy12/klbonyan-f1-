@@ -4,7 +4,7 @@
 .feature {
   background-color: #0e1133;
 }
-.ele {
+.element {
   border: 1px solid #262947;
   padding: 3.2rem;
   border-radius: 1rem;
@@ -13,11 +13,11 @@
   transition: all 0.5s;
   box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.3);
 }
-.ele:hover {
+.element:hover {
   transform: translate(-5rem);
   box-shadow: 2rem 1.4rem 2rem rgba(0, 0, 0, 0.3);
 }
-.feature .ele h3 {
+.feature .element h3 {
   color: #f7f7f7;
 }
 .features-header {
@@ -53,7 +53,7 @@
   color: #ff4268;
   font-size: 1.8rem;
 }
-.ele-para {
+.element-para {
   margin-left: 3rem;
   color: #88899a;
   font-size: 1.6rem;
@@ -78,8 +78,8 @@
   background-color: #33c956;
   box-shadow: 0 0 0 5px rgb(51 201 86 / 40%);
 }
-.second-ele {
-  background-image: url(/features-thumb-2.png);
+.second-element {
+  background-image: url(/img/features-thumb-2.png);
   background-size: cover;
   height: 90vh;
 }

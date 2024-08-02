@@ -1,11 +1,11 @@
 .section-app {
-  background-image: url(/photo.jpg);
+  background-image: url(/img/photo.jpg);
   background-size: cover;
   position: relative;
   margin-top: 9.6rem;
   border-radius: 1rem;
 }
-.pe {
+.reviewer {
   width: 30%;
   height: 80%;
   border-radius: 6rem;
@@ -43,7 +43,7 @@
   font-weight: 700;
 }
 
-.bbmb {
+.arrows-direction {
   position: absolute;
   right: 10%;
   bottom: 10%;

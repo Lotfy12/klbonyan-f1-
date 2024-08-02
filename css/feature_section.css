@@ -1,7 +1,6 @@
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  /* background-color: burlywood; */
 }
 
 .feature-icon {
@@ -30,12 +29,9 @@
 .third-heading {
   color: #070724;
   font-size: 2.4rem;
-  /* font-weight: 600; */
   padding: 2.4rem 0 2.4rem 0;
-  /* background: yellow; */
 }
-.para-featire {
-  /* background-color: #2ffc4a; */
+.para-feature {
   font-size: 1.6rem;
   color: #6f6f6f;
   padding-bottom: 2.4rem;
@@ -86,7 +82,7 @@
   align-content: center;
 }
 .delivered-img {
-  background-image: url(/about-thumb.png);
+  background-image: url(/img/about-thumb.png);
   background-size: cover;
 
   height: 100%;

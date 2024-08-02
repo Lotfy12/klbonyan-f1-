@@ -2,7 +2,6 @@
   padding: 6.4rem 0;
 }
 .statue-box:hover {
-  /* border: 1px solid #4949ff; */
   border-radius: 20%;
 }
 .statue-back-1:hover {
@@ -39,7 +38,9 @@
 .video {
   position: relative;
 }
-
+.info-videos {
+  padding-left: 6.5rem !important;
+}
 .icon-video {
   color: #ff3e66;
   background-color: #f7f7f7;
@@ -62,7 +63,7 @@
   bottom: 20%;
   right: 10%;
 }
-.bb {
+.arrow {
   text-decoration: none;
   font-size: 2rem;
   padding: 2.4rem;
@@ -70,33 +71,24 @@
   transition: all 0.3s;
   border: 1px solid #6f6f6f;
 }
-.bb:hover,
-.bb:active {
+.arrow:hover,
+.arrow:active {
   border: 1px solid #333;
 }
-.bb1 {
+.arrow1 {
   margin: 0 1.2rem;
 }
-.bbm1:link,
-.bbm1:visited {
+.arrow-direction:link,
+.arrow-direction:visited {
   color: #6f6f6f;
 }
-.bbm1:hover,
-.bbm1:active {
+.arrow-direction:hover,
+.arrow-direction:active {
   color: #ff4268;
 
   border: 1px solid #f7f7f7;
 }
 
-/* .hidee {
-  display: none;*/
 .hidek {
   display: none;
 }
-/*
-      SPACING SYSTEM (px)
-      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-      FONT SIZE SYSTEM (px)
-      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-      
-      */
